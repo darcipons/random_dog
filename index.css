@@ -1,8 +1,27 @@
+body {
+  background-color: antiquewhite;
+}
+
 h1 {
   color: red;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.image-container {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10%;
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
 }
 
 img {
   height: 30%;
   width: 30%;
 }
+
