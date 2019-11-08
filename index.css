@@ -1,11 +1,12 @@
 body {
-  background-color: antiquewhite;
+  background-color: #7EC3B0;
 }
 
 h1 {
-  color: red;
+  color: #C38C9D;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bungee', cursive;
+  font-size: 65px;
 }
 
 .image-container {
@@ -15,9 +16,13 @@ h1 {
 button {
   text-align: center;
   padding: 10px;
-  border-radius: 10%;
-  font-family: 'Playfair Display', serif;
+  border-radius: 5%;
+  font-family: 'Open Sans', sans-serif;
   margin: 20px;
+  background-color: #C38C9D;
+  border-color: #C38C9D;
+  width: 8%;
+  cursor: pointer;
 }
 
 img {
@@ -25,3 +30,14 @@ img {
   width: 30%;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  button {
+    padding: 10px;
+    width: 20%;
+    border-radius: 5%;
+  }
+}
