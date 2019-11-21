@@ -4,7 +4,7 @@ const pic = document.querySelector('div')
 function getDogPic() {
   fetch(`https://random.dog/woof.json`)
   .then(response => response.json())
-  .then(data => { // Prints result from `response.json()` in getRequest
+  .then(data => { 
     let existingImage = document.getElementById("picture");
     if (!!existingImage) {
       existingImage.remove('picture')
@@ -14,7 +14,6 @@ function getDogPic() {
     img.setAttribute("src", data.url);
     img.setAttribute("id", 'picture');
     ele.appendChild(img);
-    //append ele to parent div
 })
 .catch(error => console.error(error))
 }
